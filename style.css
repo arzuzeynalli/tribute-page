@@ -5,6 +5,11 @@ body{
 
 #main{
     font-style: italic;
-    text-align: center;
+    text-align-last: left;
     text-transform: initial;
+}
+
+div-image{
+    display: flex;
+    align-items: center;
 }
