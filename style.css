@@ -3,22 +3,44 @@ body{
 }
 
 
+
 #main{
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
     background-color:#fdfffc;
 }
+@media(max-width:460px){
+    #main{
+        margin: 0;
+    }
+}
 
 img{
-    margin: 100px;
-    margin-top: 20px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto
+    
 }
 
  h1 {
     font-size: 40px;
     margin-bottom: 0px;
 }
+#title{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#img-caption{
+    text-align: center;
+}
+#headline{
+    text-align: center;
+}
+
 @media(max-width: 460px){
     h1{
         font-size: 35px;
